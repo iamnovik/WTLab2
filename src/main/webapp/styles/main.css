@@ -1,0 +1,36 @@
+header {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 15px;
+  text-align: center;
+}
+
+header a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.price, .quantity {
+  text-align: right;
+}
+
+/* Message Styles */
+.error {
+  color: #d9534f; /* Bootstrap's danger color */
+}
+
+.success {
+  color: #5bc0de; /* Boots
